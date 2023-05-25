@@ -14,7 +14,7 @@ func main() {
 
 	for {
 
-		NumeroAleatorio := rand.Intn(99) + 1
+		NumeroAleatorio := rand.Intn(100) + 1
 		tentativas := 0
 		fmt.Print("Tente adivinhar o numero aleatorio gerado. Digite um numero inteiro entre 1 e 100: ")
 		fmt.Scan(&NumeroAdivinhado)
